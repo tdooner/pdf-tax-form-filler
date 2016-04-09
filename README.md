@@ -1,14 +1,16 @@
 PDF Tax Form Filler
 ==================
 
+![Example Tax Form Image](https://raw.githubusercontent.com/tdooner/pdf-tax-form-filler/master/example.png)
+
 This is part my attempt to write tax preparation software for April 2017. This
 repo contains the lower level of the abstraction -- the PDF form filling
 library.
 
 Installation
 ---------------
-2. Install ruby
-3. gem install prawn combine_pdf
+1. Install ruby
+2. gem install prawn combine_pdf
 
 Usage
 ---------------
