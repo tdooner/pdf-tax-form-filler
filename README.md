@@ -7,9 +7,8 @@ library.
 
 Installation
 ---------------
-1. Install PDFtk server from https://www.pdflabs.com/tools/pdftk-server/
 2. Install ruby
-3. gem install prawn
+3. gem install prawn combine_pdf
 
 Usage
 ---------------
@@ -28,8 +27,11 @@ supporting fine-grained rendering options. Almost certainly, we will run into
 forms that look terrible when filled with `pdftk fill_form`.
 
 This approach is different. Instead of trying to use the existing form fields,
-we simply composite two PDFs atop each other.
+we simply composite two PDFs atop each other. Since this is a simple operation
+(combining the objects), it is well-supported by various libraries.
 
 The top PDF contains the form field values, and is rendered by Prawn. The bottom
-PDF is the government-provided form. Then, we use `pdftk background` to
-composite the form fills on top of the "background" government-provided form.
+PDF is the government-provided form. Then, we use a PDF watermark library
+(the `combine_pdf` gem) to composite the form fills on top of the
+government-provided form. Pdftk can do this too with the `background` command,
+but for now the pure-ruby solution is easier to install and manage.

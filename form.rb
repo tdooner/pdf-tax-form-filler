@@ -1,6 +1,7 @@
 require 'ostruct'
 require 'prawn'
 require 'tempfile'
+require 'combine_pdf'
 
 class Form
   def self.load_definition(definition)
@@ -30,9 +31,14 @@ class Form
 
       d.render_file f.path
 
-      # TODO: Check exit code
-      # TODO: Handle nonexistence of pdftk.
-      `pdftk #{f.path} background #{@definition.file} output #{file}`
+      # TODO: Can we avoid using a tempfile for the overlay PDF here?
+      tax_form = CombinePDF.load(@definition.file)
+      overlay = CombinePDF.load(f.path)
+      tax_form.pages.zip(overlay.pages) do |tax_page, overlay_page|
+        next unless overlay_page
+        tax_page << overlay_page
+      end
+      tax_form.save file
     end
   end
 end
