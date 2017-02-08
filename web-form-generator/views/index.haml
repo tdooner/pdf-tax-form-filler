@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %script{ src: '/app.js' }
+    %link{ rel: 'stylesheet', type: 'text/css', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' }
+  %body
+    .container.state-container#state-upload
+      %form{ action: '/upload', method: 'POST', enctype: 'multipart/form-data' }
+        %input{ type: 'file', name: 'pdf' }
+        %input{ type: 'submit' }
+
+    .container.state-container#state-viewpdf
+      .row
+        .col-xs-3
+          left
+        .col-xs-9
+          right
