@@ -9,8 +9,8 @@ library.
 
 Installation
 ---------------
-1. Install ruby
-2. gem install prawn combine_pdf
+1. Install ruby, then bundler (`gem install bundler`)
+2. bundle install
 
 Usage
 ---------------

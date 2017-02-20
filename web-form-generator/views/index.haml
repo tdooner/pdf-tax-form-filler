@@ -3,15 +3,19 @@
   %head
     %script{ src: '/app.js' }
     %link{ rel: 'stylesheet', type: 'text/css', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' }
+    %script{ src: 'https://code.jquery.com/jquery-3.1.1.min.js', integrity: 'sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=', crossorigin: 'anonymous' }
+
   %body
     .container.state-container#state-upload
       %form{ action: '/upload', method: 'POST', enctype: 'multipart/form-data' }
         %input{ type: 'file', name: 'pdf' }
         %input{ type: 'submit' }
+      %h2 existing forms:
+      #upload-existing
 
     .container.state-container#state-viewpdf
       .row
-        .col-xs-3
-          left
-        .col-xs-9
-          right
+        .col-xs-4#viewpdf-left
+          %form#fields-form
+        .col-xs-8#viewpdf-right
+          Change a field to render the form
