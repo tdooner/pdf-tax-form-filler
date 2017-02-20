@@ -2333,5 +2333,1642 @@
       }
     ],
     "path": "/Users/tomdooner/dev/playgrounds/taxes/web-form-generator/tmp/src/65450ef23695e831f540a492f15560f0"
+  },
+  "4c1d74fc88342c4409aec87fc781e530": {
+    "fields": [
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 2",
+        "FieldNameAlt": "Page 1. Fiscal year filers only: Enter month of year end for 2017.",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Center",
+        "FieldMaxLength": "2",
+        "FieldId": "Text Field 2",
+        "FieldHumanName": "fiscal_year_end_month"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 3",
+        "FieldNameAlt": "Your first name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 3",
+        "FieldHumanName": "first_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 4",
+        "FieldNameAlt": "Middle Initial",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Center",
+        "FieldMaxLength": "1",
+        "FieldId": "Text Field 4",
+        "FieldHumanName": "middle_initial"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 5",
+        "FieldNameAlt": "Last Name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 5",
+        "FieldHumanName": "last_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 6",
+        "FieldNameAlt": "Suffix",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "4",
+        "FieldId": "Text Field 6",
+        "FieldHumanName": "suffix"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 7",
+        "FieldNameAlt": "Your Social Security Number or Individual Taxpayer Identification Number",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 7",
+        "FieldHumanName": "ssn"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 8",
+        "FieldNameAlt": "If joint tax return, spouse&#8217;s or Registered Domestic Partner's first name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 8",
+        "FieldHumanName": "spouse_first_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 9",
+        "FieldNameAlt": "Middle Initial",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Center",
+        "FieldMaxLength": "1",
+        "FieldId": "Text Field 9",
+        "FieldHumanName": "spouse_middle_initial"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 10",
+        "FieldNameAlt": "Last Name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 10",
+        "FieldHumanName": "spouse_last_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 11",
+        "FieldNameAlt": "Suffix",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "4",
+        "FieldId": "Text Field 11",
+        "FieldHumanName": "spouse_suffix"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 12",
+        "FieldNameAlt": "Spouse's or Registered Domestic Partners Social Security Number or Individual Taxpayer Identification Number",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 12",
+        "FieldHumanName": "spouse_ssn"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 13",
+        "FieldNameAlt": "Additional information (see instructions)",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 13",
+        "FieldHumanName": "additional_information"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 14",
+        "FieldNameAlt": "PBA code",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "6",
+        "FieldId": "Text Field 14",
+        "FieldHumanName": "pba_code"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 15",
+        "FieldNameAlt": "Street address (number and street) or Post Office Box",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 15",
+        "FieldHumanName": "street_address"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 16",
+        "FieldNameAlt": "Apartment number or suite number",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "5",
+        "FieldId": "Text Field 16",
+        "FieldHumanName": "apt_no"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 17",
+        "FieldNameAlt": "Private Mailbox",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "6",
+        "FieldId": "Text Field 17",
+        "FieldHumanName": "pmb"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 18",
+        "FieldNameAlt": "City (If you have a foreign address, see instructions)",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 18",
+        "FieldHumanName": "city"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 19",
+        "FieldNameAlt": "State",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "2",
+        "FieldId": "Text Field 19",
+        "FieldHumanName": "state"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 20",
+        "FieldNameAlt": "Zip code",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 20",
+        "FieldHumanName": "zip"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 21",
+        "FieldNameAlt": "foreign country name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 21",
+        "FieldHumanName": "foreign_country"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 22",
+        "FieldNameAlt": "Foreign province/state/county",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 22",
+        "FieldHumanName": "foreign_region"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 23",
+        "FieldNameAlt": "Foreign postal code",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "10",
+        "FieldId": "Text Field 23",
+        "FieldHumanName": "foreign_postal_code"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 24",
+        "FieldNameAlt": "Your Date of Birth. Enter as a two digit month, two digit day and four digit year.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "8",
+        "FieldId": "Text Field 24",
+        "FieldHumanName": "dob"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 25",
+        "FieldNameAlt": "Spouse's or Registered Domestic Partner's Date of Birth. Enter as a two digit month, two digit day and four digit year.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "8",
+        "FieldId": "Text Field 25",
+        "FieldHumanName": "spouse_dob"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 26",
+        "FieldNameAlt": "Taxpayer (Your) Prior Last Name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 26",
+        "FieldHumanName": "2015_last_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 27",
+        "FieldNameAlt": "Spouse or Registered Domestic Partner Prior Last Name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 27",
+        "FieldHumanName": "2015_spouse_last_name"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 2",
+        "FieldNameAlt": "Line One: Single",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 2",
+        "FieldHumanName": "status_single"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 3",
+        "FieldNameAlt": "Line Two: Married or R D P filing jointly. See instructions.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 3",
+        "FieldHumanName": "status_married_jointly"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 4",
+        "FieldNameAlt": "Line Three: Married or R D P filing separately.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 4",
+        "FieldHumanName": "status_married_separately"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 28",
+        "FieldNameAlt": "Enter spouse&#8217;s or Registered Domestic Partner's SSN or I T I N above and full name here",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 28",
+        "FieldHumanName": "spouse_full_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 29",
+        "FieldNameAlt": "Enter year spouse or R D P died",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "4",
+        "FieldId": "Text Field 29",
+        "FieldHumanName": "widowed_year"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 5",
+        "FieldNameAlt": "Line Four: Head of household (with qualifying person). See instructions.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 5",
+        "FieldHumanName": "status_head_of_household"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 6",
+        "FieldNameAlt": "Line five: Qualifying widow or widower with dependent child.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 6",
+        "FieldHumanName": "status_widow_with_dependent"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 7",
+        "FieldNameAlt": "If your California filing status is different from your federal filing status, check the box here",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 7",
+        "FieldHumanName": "different_status_in_california_than_federal"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 8",
+        "FieldNameAlt": "Line 6: If someone can claim you (or your spouse or R D P) as a dependent, check the box here.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 8",
+        "FieldHumanName": "can_be_claimed_as_dependent"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 30",
+        "FieldNameAlt": "Line 7. Personal: If you checked box 1, 3, or 4 above, enter 1 in the box. If you checked &#10;box 2 or 5, enter 2, in the box. If you checked the box on line 6, see instructions",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Center",
+        "FieldMaxLength": "1",
+        "FieldId": "Text Field 30",
+        "FieldHumanName": "personal_exemptions"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 31",
+        "FieldNameAlt": "Multiply the number you put in the line 7 box by $111. Enter this number into this field. Whole dollars only.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 31",
+        "FieldHumanName": "personal_exemptions_total"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 32",
+        "FieldNameAlt": "Line 8. Blind: If you (or your spouse/R D P) are visually impaired, enter 1; &#10;if both are visually impaired, enter 2",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Center",
+        "FieldMaxLength": "1",
+        "FieldId": "Text Field 32",
+        "FieldHumanName": "blind_exemptions"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 33",
+        "FieldNameAlt": "Multiply the number you put in the line 8 box by $111. Enter this number into this field. Whole dollars only.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 33",
+        "FieldHumanName": "blind_exemptions_total"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 34",
+        "FieldNameAlt": "Line 9. Senior: If you (or your spouse/R D P) are 65 or older, enter 1; &#10;if both are 65 or older, enter 2",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Center",
+        "FieldMaxLength": "1",
+        "FieldId": "Text Field 34",
+        "FieldHumanName": "senior_exemptions"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 35",
+        "FieldNameAlt": "Multiply the number you put in the line 9 box by $111. Enter this number into this field. Whole dollars only.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 35",
+        "FieldHumanName": "senior_exemptions_total"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 36",
+        "FieldNameAlt": "Dependent One, first name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 36",
+        "FieldHumanName": "dependent_1_first_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 37",
+        "FieldNameAlt": "Dependent One, Last name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 37",
+        "FieldHumanName": "dependent_1_last_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 38",
+        "FieldNameAlt": "Dependent One, Social Security Number",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 38",
+        "FieldHumanName": "dependent_1_ssn"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 39",
+        "FieldNameAlt": "Dependent One. Dependent's relationship to you",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 39",
+        "FieldHumanName": "dependent_1_relationship"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 40",
+        "FieldNameAlt": "Dependent Two, first name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 40",
+        "FieldHumanName": "dependent_2_first_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 41",
+        "FieldNameAlt": "Dependent Two, Last name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 41",
+        "FieldHumanName": "dependent_2_last_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 42",
+        "FieldNameAlt": "Dependent Two, Social Security Number",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 42",
+        "FieldHumanName": "dependent_2_ssn"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 43",
+        "FieldNameAlt": "Dependent Two, Dependent's relationship to you",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 43",
+        "FieldHumanName": "dependent_2_relationship"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 44",
+        "FieldNameAlt": "Dependent Three, first name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 44",
+        "FieldHumanName": "dependent_3_first_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 45",
+        "FieldNameAlt": "Dependent Three, Last name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 45",
+        "FieldHumanName": "dependent_3_last_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 46",
+        "FieldNameAlt": "Dependent Three, Social Security Number",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 46",
+        "FieldHumanName": "dependent_3_ssn"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 47",
+        "FieldNameAlt": "Dependent Three, Dependent's relationship to you",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 47",
+        "FieldHumanName": "dependent_3_relationship"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 48",
+        "FieldNameAlt": "Line 10. Enter the total number of dependent exemptions",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Center",
+        "FieldMaxLength": "2",
+        "FieldId": "Text Field 48",
+        "FieldHumanName": "dependent_exemptions"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 49",
+        "FieldNameAlt": "Multiply the number of total dependent exemptions you put in the box by $344. Enter this number into this field. Whole dollars only.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 49",
+        "FieldHumanName": "dependent_exemptions_total"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 50",
+        "FieldNameAlt": "Line 11. Exemption amount: Add line 7 through line 10. Transfer this amount to line 32. Whole dollars only.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 50",
+        "FieldHumanName": "exemptions_total"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 51",
+        "FieldNameAlt": "Page 2. Your name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 51",
+        "FieldHumanName": "full_name"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 52",
+        "FieldNameAlt": "Your SSN or I T I N",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 52",
+        "FieldHumanName": "ssn"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 53",
+        "FieldNameAlt": "Line 12. State wages from your Form(s) W-2, box 16",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 53",
+        "FieldHumanName": "state_wages"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 54",
+        "FieldNameAlt": "Line 13. Enter federal adjusted gross income from Form 1040, line 37; 1040A, line 21; or 1040EZ, line 4",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 54",
+        "FieldHumanName": "federal_agi"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 55",
+        "FieldNameAlt": "Line 14. California adjustments &#8211; subtractions. Enter the amount from Schedule CA (540), line 37, column B",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 55",
+        "FieldHumanName": "california_adjustments_subtractions"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 56",
+        "FieldNameAlt": "Line 15. Subtract line 14 from line 13. If less than zero, enter the result in parentheses. See instructions",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 56",
+        "FieldHumanName": "calculate_13_minus_14"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 57",
+        "FieldNameAlt": "Line 16.  California adjustments &#8211; additions. Enter the amount from Schedule CA (540), line 37, column C.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 57",
+        "FieldHumanName": "california_adjustments_additions"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 58",
+        "FieldNameAlt": "Line 17.  California adjusted gross income. Combine line 15 and line 16.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 58",
+        "FieldHumanName": "california_agi"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 59",
+        "FieldNameAlt": "Line 18. Enter the larger of: Your California itemized deductions from Schedule C A (540), line 44; OR Your California standard deduction shown below for your filing status: Single or Married/R D P filing separately $4,129. Married/R D P filing jointly, Head of household, or Qualifying widow(er) $8,258. If Married/R D P filing separately or the box on line 6 is checked, STOP. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 59",
+        "FieldHumanName": "california_deductions"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 60",
+        "FieldNameAlt": "Line 19.  Subtract line 18 from line 17. This is your taxable income. If less than zero, enter 0.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 60",
+        "FieldHumanName": "taxable_income"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 9",
+        "FieldNameAlt": " Line 31.  Checkbox A.  Check the box if tax from tax table.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 9",
+        "FieldHumanName": "tax_from_tax_table"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 10",
+        "FieldNameAlt": "Line 31.  Checkbox B.  Check the box if tax from Tax Rate Schedule.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 10",
+        "FieldHumanName": "tax_from_rate_schedule"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 61",
+        "FieldNameAlt": "Line 31.  Tax amount.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 61",
+        "FieldHumanName": "tax"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 11",
+        "FieldNameAlt": "Line 31.  Checkbox C.  Check the box if tax from FTB 3800.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 11",
+        "FieldHumanName": "tax_from_ftb_3800"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 12",
+        "FieldNameAlt": "Line 31.  Checkbox D.  Check the box if tax from FTB 3803.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 12",
+        "FieldHumanName": "tax_from_ftb_3803"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 62",
+        "FieldNameAlt": "Line 32.  Exemption credits. Enter the amount from line 11. If your federal A G I is more than $182,459, see instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 62",
+        "FieldHumanName": "exemption_credits"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 63",
+        "FieldNameAlt": "Line 33.  Subtract line 32 from line 31. If less than zero, enter 0.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 63",
+        "FieldHumanName": "calculate_31_minus_32"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 64",
+        "FieldNameAlt": "Line 34. Tax. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 64",
+        "FieldHumanName": "Text Field 64"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 13",
+        "FieldNameAlt": "Line 34. Tax. See instructions. Check only one box.  Checkbox A.  Check the box if tax is from Schedule G-1.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 13",
+        "FieldHumanName": "Check Box 13"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 14",
+        "FieldNameAlt": "Line 34. Checkbox B. Check the box if tax is from FTB 5870-A.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 14",
+        "FieldHumanName": "Check Box 14"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 65",
+        "FieldNameAlt": "Line 35. Add line 33 and line 34.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 65",
+        "FieldHumanName": "Text Field 65"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 66",
+        "FieldNameAlt": "Line 40. Nonrefundable Child and Dependent Care Expenses Credit. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 66",
+        "FieldHumanName": "Text Field 66"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 67",
+        "FieldNameAlt": "Line 43. Enter credit name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 67",
+        "FieldHumanName": "Text Field 67"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 68",
+        "FieldNameAlt": "Line 43. Enter credit code",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "3",
+        "FieldId": "Text Field 68",
+        "FieldHumanName": "Text Field 68"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 69",
+        "FieldNameAlt": "Line 43.  Enter credit amount.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 69",
+        "FieldHumanName": "Text Field 69"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 70",
+        "FieldNameAlt": "Line 44. Enter credit name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 70",
+        "FieldHumanName": "Text Field 70"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 71",
+        "FieldNameAlt": "Line 44. Enter credit code.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "3",
+        "FieldId": "Text Field 71",
+        "FieldHumanName": "Text Field 71"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 72",
+        "FieldNameAlt": "Line 44.  Enter credit amount.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 72",
+        "FieldHumanName": "Text Field 72"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 73",
+        "FieldNameAlt": "Line 45. To claim more than two credits, see instructions. Attach Schedule P (540).",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 73",
+        "FieldHumanName": "Text Field 73"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 74",
+        "FieldNameAlt": "Line 46. Nonrefundable renter&#8217;s credit. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 74",
+        "FieldHumanName": "Text Field 74"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 75",
+        "FieldNameAlt": "Line 47. Add line 40 through line 46. These are your total credits.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 75",
+        "FieldHumanName": "Text Field 75"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 76",
+        "FieldNameAlt": "Line 48. Subtract line 47 from line 35. If less than zero, enter 0.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 76",
+        "FieldHumanName": "Text Field 76"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 77",
+        "FieldNameAlt": "Line 61. Alternative minimum tax. Attach Schedule P (540).",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 77",
+        "FieldHumanName": "Text Field 77"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 78",
+        "FieldNameAlt": "Line 62. Mental Health Services Tax. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 78",
+        "FieldHumanName": "Text Field 78"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 79",
+        "FieldNameAlt": "Line 63. Other taxes and credit recapture. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 79",
+        "FieldHumanName": "Text Field 79"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 80",
+        "FieldNameAlt": "Line 64. Add line 48, line 61, line 62, and line 63. This is your total tax.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 80",
+        "FieldHumanName": "Text Field 80"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 81",
+        "FieldNameAlt": "Page 3. Your name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 81",
+        "FieldHumanName": "Text Field 81"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 82",
+        "FieldNameAlt": "Your SSN or I T I N",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 82",
+        "FieldHumanName": "Text Field 82"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 83",
+        "FieldNameAlt": " Line 71. California income tax withheld. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 83",
+        "FieldHumanName": "Text Field 83"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 84",
+        "FieldNameAlt": "Line 72. 2016 California estimated tax and other payments. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 84",
+        "FieldHumanName": "Text Field 84"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 85",
+        "FieldNameAlt": "Line 73. Withholding (Form 592-B and/or 593). See instructions",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 85",
+        "FieldHumanName": "Text Field 85"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 86",
+        "FieldNameAlt": "Line 74. Excess S D I (or V P D I) withheld. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 86",
+        "FieldHumanName": "Text Field 86"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 87",
+        "FieldNameAlt": "Line 75. Earned Income Tax Credit (E I T C).",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 87",
+        "FieldHumanName": "Text Field 87"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 88",
+        "FieldNameAlt": "Line 76. Add lines 71 through 75. These are your total payments. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 88",
+        "FieldHumanName": "Text Field 88"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 89",
+        "FieldNameAlt": "Line 91. Enter Use Tax. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 89",
+        "FieldHumanName": "Text Field 89"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 90",
+        "FieldNameAlt": "Line 92. Payments balance. If line 76 is more than line 91, subtract line 91 from line 76.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 90",
+        "FieldHumanName": "Text Field 90"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 91",
+        "FieldNameAlt": "Line 93.  Use Tax balance.  If line 91 is more than line 76, subtract line 76 from line 91.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 91",
+        "FieldHumanName": "Text Field 91"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 92",
+        "FieldNameAlt": "Line 94. Overpaid tax. If line 92 is more than line 64, subtract line 64 from line 92.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 92",
+        "FieldHumanName": "Text Field 92"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 93",
+        "FieldNameAlt": "Line 95. Amount of line 94 you want applied to your 2017 estimated tax.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 93",
+        "FieldHumanName": "Text Field 93"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 94",
+        "FieldNameAlt": "Line 96. Overpaid tax available this year. Subtract line 95 from line 94.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 94",
+        "FieldHumanName": "Text Field 94"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 95",
+        "FieldNameAlt": "Line 97. Tax due. If line 92 is less than line 64, subtract line 92 from line 64.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 95",
+        "FieldHumanName": "Text Field 95"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 96",
+        "FieldNameAlt": "Page 4. Your name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 96",
+        "FieldHumanName": "Text Field 96"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 97",
+        "FieldNameAlt": "Your SSN or I T I N",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 97",
+        "FieldHumanName": "Text Field 97"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 98",
+        "FieldNameAlt": "Code 400. California Seniors Special Fund. See instructions.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 98",
+        "FieldHumanName": "Text Field 98"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 99",
+        "FieldNameAlt": "Code 401. Alzheimer&#8217;s Disease and Related Disorders Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 99",
+        "FieldHumanName": "Text Field 99"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 100",
+        "FieldNameAlt": "Code 403.  Rare and Endangered Species Preservation Program",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 100",
+        "FieldHumanName": "Text Field 100"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 101",
+        "FieldNameAlt": "Code 405. California Breast Cancer Research Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 101",
+        "FieldHumanName": "Text Field 101"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 102",
+        "FieldNameAlt": "Code 406. California Firefighters&#8217; Memorial Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 102",
+        "FieldHumanName": "Text Field 102"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 103",
+        "FieldNameAlt": "Code 407.  Emergency Food for Families Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 103",
+        "FieldHumanName": "Text Field 103"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 104",
+        "FieldNameAlt": "Code 408.  California Peace Officer Memorial Foundation Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 104",
+        "FieldHumanName": "Text Field 104"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 105",
+        "FieldNameAlt": "Code 410.  California Sea Otter Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 105",
+        "FieldHumanName": "Text Field 105"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 106",
+        "FieldNameAlt": "Code 413.  California Cancer Research Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 106",
+        "FieldHumanName": "Text Field 106"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 107",
+        "FieldNameAlt": "Code 419.  Child Victims of Human Trafficking Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 107",
+        "FieldHumanName": "Text Field 107"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 108",
+        "FieldNameAlt": "Code 422.  School Supplies for Homeless Children Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 108",
+        "FieldHumanName": "Text Field 108"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 109",
+        "FieldNameAlt": "Code 423.  State Parks Protection Fund and Parks Pass Purchase",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 109",
+        "FieldHumanName": "Text Field 109"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 110",
+        "FieldNameAlt": "Code 424.  Protect Our Coast and Oceans Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 110",
+        "FieldHumanName": "Text Field 110"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 111",
+        "FieldNameAlt": "Code 425.  Keep Arts in Schools Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 111",
+        "FieldHumanName": "Text Field 111"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 115",
+        "FieldNameAlt": "Code 430. State Children&#8217;s Trust Fund for the Prevention of Child Abuse.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 115",
+        "FieldHumanName": "Text Field 115"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 116",
+        "FieldNameAlt": "Code 431.  Prevention of Animal Homelessness &amp; Cruelty Fund.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 116",
+        "FieldHumanName": "Text Field 116"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 117",
+        "FieldNameAlt": "Line 110. Add code 400 through code 435. This is your total contribution. ",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 117",
+        "FieldHumanName": "Text Field 117"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 118",
+        "FieldNameAlt": "Page 5. Your name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 118",
+        "FieldHumanName": "Text Field 118"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 119",
+        "FieldNameAlt": "Your SSN or I T I N",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 119",
+        "FieldHumanName": "Text Field 119"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 120",
+        "FieldNameAlt": "Line 111. Amount You Owe. If you do not have an amount on line 96, then add line 93, line 97, and line 110. See instructions. Do not send cash.  You can mail payments to: Franchise Tax Board, PO Box, 942867, Sacramento, California, 94267-0001.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "8",
+        "FieldId": "Text Field 120",
+        "FieldHumanName": "Text Field 120"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 121",
+        "FieldNameAlt": "Line 112. Interest, late return penalties, and late payment penalties.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 121",
+        "FieldHumanName": "Text Field 121"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 122",
+        "FieldNameAlt": "Line 113. Underpayment of estimated tax.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 122",
+        "FieldHumanName": "Text Field 122"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 123",
+        "FieldNameAlt": "Line 114.  Total amount due. See instructions. Enclose, but do not staple, any payment.",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 123",
+        "FieldHumanName": "Text Field 123"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 15",
+        "FieldNameAlt": "Line 113.  Check only one box.  Checkbox A. Check the box if FTB 5805 attached.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 15",
+        "FieldHumanName": "Check Box 15"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 16",
+        "FieldNameAlt": "Line 113.  Checkbox B.  Check the box if FTB 5805-F attached.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 16",
+        "FieldHumanName": "Check Box 16"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 124",
+        "FieldNameAlt": "Line 117. Routing Number for secondary account. ",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 124",
+        "FieldHumanName": "Text Field 124"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 125",
+        "FieldNameAlt": " Line 116.  Enter the account&#8217;s routing number.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 125",
+        "FieldHumanName": "Text Field 125"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 126",
+        "FieldNameAlt": "Line 116. Account number.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "17",
+        "FieldId": "Text Field 126",
+        "FieldHumanName": "Text Field 126"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 127",
+        "FieldNameAlt": "Line 117. Secondary Account number.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "17",
+        "FieldId": "Text Field 127",
+        "FieldHumanName": "Text Field 127"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 128",
+        "FieldNameAlt": "Line 115.  Refund or no amount due.  Subtract the sum of line 110, line 112 and line 113 from line 96. See instructions. You can mail to: Franchise Tax Board, Post Office Box 942840, Sacramento, California, 94240-0001",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "8",
+        "FieldId": "Text Field 128",
+        "FieldHumanName": "Text Field 128"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 129",
+        "FieldNameAlt": "Line 116.  Direct deposit amount.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "8",
+        "FieldId": "Text Field 129",
+        "FieldHumanName": "Text Field 129"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 130",
+        "FieldNameAlt": "Line 117. Secondary Direct deposit amount.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "8",
+        "FieldId": "Text Field 130",
+        "FieldHumanName": "Text Field 130"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 17",
+        "FieldNameAlt": "Account type.  Check only one box.  Checkbox A.  Checking account.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 17",
+        "FieldHumanName": "Check Box 17"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 18",
+        "FieldNameAlt": "Account Type. Checkbox B.  Savings account.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 18",
+        "FieldHumanName": "Check Box 18"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 19",
+        "FieldNameAlt": "Secondary Account type.  Check only one box.  Checkbox A.  Checking account.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 19",
+        "FieldHumanName": "Check Box 19"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 20",
+        "FieldNameAlt": "Secondary account type. Checkbox B.  Savings account.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 20",
+        "FieldHumanName": "Check Box 20"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 132",
+        "FieldNameAlt": "Signature section.  Enter date signed: 2 digit month, 2 digit day, 4 digit year.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "8",
+        "FieldId": "Text Field 132",
+        "FieldHumanName": "Text Field 132"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 134",
+        "FieldNameAlt": "Your email address. Enter only one email address.",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 134",
+        "FieldHumanName": "Text Field 134"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 135",
+        "FieldNameAlt": "Print Third Party Designee&#8217;s Name",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 135",
+        "FieldHumanName": "Text Field 135"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 136",
+        "FieldNameAlt": "Firm&#8217;s name (or yours, if self-employed).",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 136",
+        "FieldHumanName": "Text Field 136"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 137",
+        "FieldNameAlt": "Firm's address.",
+        "FieldFlags": "8388608",
+        "FieldJustification": "Left",
+        "FieldId": "Text Field 137",
+        "FieldHumanName": "Text Field 137"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 139",
+        "FieldNameAlt": "Preferred phone number. Enter numbers only.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "10",
+        "FieldId": "Text Field 139",
+        "FieldHumanName": "Text Field 139"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 140",
+        "FieldNameAlt": "Third party designee's telephone number. Enter numbers only.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "11",
+        "FieldId": "Text Field 140",
+        "FieldHumanName": "Text Field 140"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 141",
+        "FieldNameAlt": "Preparer's Taxpayer Identification Number",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 141",
+        "FieldHumanName": "Text Field 141"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 142",
+        "FieldNameAlt": "Federal Employer Identification Number.",
+        "FieldFlags": "29360128",
+        "FieldJustification": "Left",
+        "FieldMaxLength": "9",
+        "FieldId": "Text Field 142",
+        "FieldHumanName": "Text Field 142"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 21",
+        "FieldNameAlt": "Third Party Designee.  Do you want to allow another person to discuss this tax return with us (see instructions)?  Yes.  Complete below.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 21",
+        "FieldHumanName": "Check Box 21"
+      },
+      {
+        "FieldType": "Button",
+        "FieldName": "Check Box 22",
+        "FieldNameAlt": "Third Party Designee.  No.",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldStateOption": [
+          "Off",
+          "Yes"
+        ],
+        "FieldId": "Check Box 22",
+        "FieldHumanName": "Check Box 22"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 143",
+        "FieldNameAlt": "Code 432.  Revive the Salton Sea Fund",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 143",
+        "FieldHumanName": "Text Field 143"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 144",
+        "FieldNameAlt": "Code 433.  California Domestic Violence Victims Fund",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 144",
+        "FieldHumanName": "Text Field 144"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 145",
+        "FieldNameAlt": "Code 434. Special Olympics Fund",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 145",
+        "FieldHumanName": "Text Field 145"
+      },
+      {
+        "FieldType": "Text",
+        "FieldName": "Text Field 146",
+        "FieldNameAlt": "Code 435. Type 1 Diabetes Research Fund",
+        "FieldFlags": "12582912",
+        "FieldJustification": "Right",
+        "FieldMaxLength": "12",
+        "FieldId": "Text Field 146",
+        "FieldHumanName": "Text Field 146"
+      }
+    ],
+    "path": "/Users/tomdooner/dev/playgrounds/taxes/web-form-generator/tmp/src/4c1d74fc88342c4409aec87fc781e530"
   }
 }
