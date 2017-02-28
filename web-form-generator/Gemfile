@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'haml'
+gem 'pdf-forms'
 gem 'sinatra'
+gem 'sinatra-contrib'
