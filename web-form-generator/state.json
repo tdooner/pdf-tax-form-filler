@@ -7,7 +7,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--HeaderPg1-0--f1-01-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].HeaderPg1[0].f1_01[0]"
+        "FieldHumanName": "fiscal_year_begin_month"
       },
       {
         "FieldType": "Text",
@@ -15,7 +15,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page1-0--HeaderPg1-0--f1-02-0-",
-        "FieldHumanName": "foo"
+        "FieldHumanName": "fiscal_year_end_month"
       },
       {
         "FieldType": "Text",
@@ -24,7 +24,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "2",
         "FieldId": "topmostSubform-0--Page1-0--HeaderPg1-0--f1-03-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].HeaderPg1[0].f1_03[0]"
+        "FieldHumanName": "fiscal_year_end_year"
       },
       {
         "FieldType": "Text",
@@ -32,7 +32,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--f1-04-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_04[0]"
+        "FieldHumanName": "first_name"
       },
       {
         "FieldType": "Text",
@@ -40,7 +40,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--f1-05-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_05[0]"
+        "FieldHumanName": "last_name"
       },
       {
         "FieldType": "Text",
@@ -49,7 +49,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "9",
         "FieldId": "topmostSubform-0--Page1-0--f1-06-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_06[0]"
+        "FieldHumanName": "ssn"
       },
       {
         "FieldType": "Text",
@@ -57,7 +57,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--f1-07-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_07[0]"
+        "FieldHumanName": "spouse_first_name"
       },
       {
         "FieldType": "Text",
@@ -65,7 +65,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--f1-08-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_08[0]"
+        "FieldHumanName": "spouse_last_name"
       },
       {
         "FieldType": "Text",
@@ -74,7 +74,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "9",
         "FieldId": "topmostSubform-0--Page1-0--SpouseSSN-0--f1-09-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].SpouseSSN[0].f1_09[0]"
+        "FieldHumanName": "spouse_ssn"
       },
       {
         "FieldType": "Text",
@@ -82,7 +82,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Address-0--f1-10-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Address[0].f1-10[0]"
+        "FieldHumanName": "street_address"
       },
       {
         "FieldType": "Text",
@@ -90,7 +90,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page1-0--Address-0--f1-11-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Address[0].f1-11[0]"
+        "FieldHumanName": "apt_no"
       },
       {
         "FieldType": "Text",
@@ -98,7 +98,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Address-0--f1-12-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Address[0].f1-12[0]"
+        "FieldHumanName": "city"
       },
       {
         "FieldType": "Text",
@@ -106,7 +106,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Address-0--f1-13-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Address[0].f1_13[0]"
+        "FieldHumanName": "foreign_country"
       },
       {
         "FieldType": "Text",
@@ -114,7 +114,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Address-0--f1-14-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Address[0].f1_14[0]"
+        "FieldHumanName": "foreign_region"
       },
       {
         "FieldType": "Text",
@@ -122,7 +122,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Address-0--f1-15-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Address[0].f1_15[0]"
+        "FieldHumanName": "foreign_postal_code"
       },
       {
         "FieldType": "Button",
@@ -134,7 +134,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--c1-01-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].c1_01[0]"
+        "FieldHumanName": "presidential_campaign_you"
       },
       {
         "FieldType": "Button",
@@ -146,7 +146,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--c1-02-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].c1_02[0]"
+        "FieldHumanName": "presidential_campaign_spouse"
       },
       {
         "FieldType": "Button",
@@ -158,7 +158,7 @@
           "S"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines1-3-0--c1-03-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines1-3[0].c1_03[0]"
+        "FieldHumanName": "status_single"
       },
       {
         "FieldType": "Button",
@@ -170,7 +170,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines1-3-0--c1-03-1-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines1-3[0].c1_03[1]"
+        "FieldHumanName": "status_married_jointly"
       },
       {
         "FieldType": "Button",
@@ -182,7 +182,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines1-3-0--c1-03-2-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines1-3[0].c1_03[2]"
+        "FieldHumanName": "status_married_separately"
       },
       {
         "FieldType": "Text",
@@ -190,7 +190,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Lines1-3-0--f1-16-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines1-3[0].f1-16[0]"
+        "FieldHumanName": "spouse_full_name"
       },
       {
         "FieldType": "Button",
@@ -202,7 +202,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--c1-03-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].c1_03[0]"
+        "FieldHumanName": "status_head_of_household"
       },
       {
         "FieldType": "Text",
@@ -210,7 +210,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--f1-17-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_17[0]"
+        "FieldHumanName": "child_not_dependent_full_name"
       },
       {
         "FieldType": "Button",
@@ -222,7 +222,7 @@
           "QW"
         ],
         "FieldId": "topmostSubform-0--Page1-0--c1-03-1-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].c1_03[1]"
+        "FieldHumanName": "status_widow_with_dependent"
       },
       {
         "FieldType": "Button",
@@ -234,7 +234,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Lines6a-5BoxesChecked-0--Lines6a-b-0--c1-04-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Lines6a-5BoxesChecked[0].Lines6a-b[0].c1_04[0]"
+        "FieldHumanName": "exemption_non_dependent"
       },
       {
         "FieldType": "Button",
@@ -246,14 +246,14 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Lines6a-5BoxesChecked-0--Lines6a-b-0--c1-05-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Lines6a-5BoxesChecked[0].Lines6a-b[0].c1_05[0]"
+        "FieldHumanName": "exemption_spouse"
       },
       {
-        "FieldType": "FieldName:",
-        "topmostSubform[0].Page1[0].Lines6a-d[0].Lines6a-5BoxesChecked[0]": "FieldFlags:",
-        "0": "FieldJustification:",
-        "Left": null,
-        "FieldId": ""
+        "FieldType": "",
+        "FieldName": "topmostSubform[0].Page1[0].Lines6a-d[0].Lines6a-5BoxesChecked[0]",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Lines6a-5BoxesChecked-0-"
       },
       {
         "FieldType": "Text",
@@ -261,7 +261,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-1--f1-18-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[1].f1_18[0]"
+        "FieldHumanName": "dependent_1_full_name"
       },
       {
         "FieldType": "Text",
@@ -270,7 +270,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "9",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-1--f1-19-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[1].f1_19[0]"
+        "FieldHumanName": "dependent_1_ssn"
       },
       {
         "FieldType": "Text",
@@ -278,7 +278,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-1--f1-20-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[1].f1_20[0]"
+        "FieldHumanName": "dependent_1_relationship"
       },
       {
         "FieldType": "Button",
@@ -290,7 +290,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-1--c1-06-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[1].c1_06[0]"
+        "FieldHumanName": "dependent_1_child_tax_credit"
       },
       {
         "FieldType": "Text",
@@ -298,7 +298,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-2--f1-21-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[2].f1_21[0]"
+        "FieldHumanName": "dependent_2_full_name"
       },
       {
         "FieldType": "Text",
@@ -307,7 +307,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "9",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-2--f1-22-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[2].f1_22[0]"
+        "FieldHumanName": "dependent_2_ssn"
       },
       {
         "FieldType": "Text",
@@ -315,7 +315,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-2--f1-23-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[2].f1_23[0]"
+        "FieldHumanName": "dependent_2_relationship"
       },
       {
         "FieldType": "Button",
@@ -327,7 +327,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-2--c1-07-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[2].c1_07[0]"
+        "FieldHumanName": "dependent_2_child_tax_credit"
       },
       {
         "FieldType": "Text",
@@ -335,7 +335,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-3--f1-24-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[3].f1_24[0]"
+        "FieldHumanName": "dependent_3_full_name"
       },
       {
         "FieldType": "Text",
@@ -344,7 +344,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "9",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-3--f1-25-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[3].f1_25[0]"
+        "FieldHumanName": "dependent_3_ssn"
       },
       {
         "FieldType": "Text",
@@ -352,7 +352,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-3--f1-26-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[3].f1_26[0]"
+        "FieldHumanName": "dependent_3_relationship"
       },
       {
         "FieldType": "Button",
@@ -364,7 +364,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-3--c1-08-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[3].c1_08[0]"
+        "FieldHumanName": "dependent_3_child_tax_credit"
       },
       {
         "FieldType": "Text",
@@ -372,7 +372,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-4--f1-27-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[4].f1_27[0]"
+        "FieldHumanName": "dependent_4_full_name"
       },
       {
         "FieldType": "Text",
@@ -381,7 +381,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "9",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-4--f1-28-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[4].f1_28[0]"
+        "FieldHumanName": "dependent_4_ssn"
       },
       {
         "FieldType": "Text",
@@ -389,7 +389,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-4--f1-29-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[4].f1_29[0]"
+        "FieldHumanName": "dependent_4_relationship"
       },
       {
         "FieldType": "Button",
@@ -401,14 +401,14 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0--#subform-4--c1-09-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0].#subform[4].c1_09[0]"
+        "FieldHumanName": "dependent_4_child_tax_credit"
       },
       {
-        "FieldType": "FieldName:",
-        "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0]": "FieldFlags:",
-        "0": "FieldJustification:",
-        "Left": null,
-        "FieldId": ""
+        "FieldType": "",
+        "FieldName": "topmostSubform[0].Page1[0].Lines6a-d[0].Line6cTable[0]",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--Line6cTable-0-"
       },
       {
         "FieldType": "Button",
@@ -420,7 +420,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page1-0--Lines6a-d-0--c1-10-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].Lines6a-d[0].c1_10[0]"
+        "FieldHumanName": "more_than_four_dependents"
       },
       {
         "FieldType": "Text",
@@ -428,7 +428,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page1-0--f1-30-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_30[0]"
+        "FieldHumanName": "exemptions_you_and_spouse"
       },
       {
         "FieldType": "Text",
@@ -436,7 +436,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page1-0--f1-31-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_31[0]"
+        "FieldHumanName": "exemptions_num_children"
       },
       {
         "FieldType": "Text",
@@ -444,7 +444,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page1-0--f1-32-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_32[0]"
+        "FieldHumanName": "exemptionts_num_children_divorced"
       },
       {
         "FieldType": "Text",
@@ -452,7 +452,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page1-0--f1-33-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_33[0]"
+        "FieldHumanName": "exemptions_num_other"
       },
       {
         "FieldType": "Text",
@@ -460,7 +460,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page1-0--f1-34-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_34[0]"
+        "FieldHumanName": "exemptions_total"
       },
       {
         "FieldType": "Text",
@@ -468,7 +468,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-35-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_35[0]"
+        "FieldHumanName": "wages"
       },
       {
         "FieldType": "Text",
@@ -477,7 +477,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-36-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_36[0]"
+        "FieldHumanName": "wages_cents"
       },
       {
         "FieldType": "Text",
@@ -485,7 +485,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-37-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_37[0]"
+        "FieldHumanName": "taxable_interest"
       },
       {
         "FieldType": "Text",
@@ -494,7 +494,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-38-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_38[0]"
+        "FieldHumanName": "taxable_interest_cents"
       },
       {
         "FieldType": "Text",
@@ -502,7 +502,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-39-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_39[0]"
+        "FieldHumanName": "tax_exempt_interest"
       },
       {
         "FieldType": "Text",
@@ -511,7 +511,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-40-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_40[0]"
+        "FieldHumanName": "tax_exempt_interest_cents"
       },
       {
         "FieldType": "Text",
@@ -519,7 +519,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-41-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_41[0]"
+        "FieldHumanName": "ordinary_dividends"
       },
       {
         "FieldType": "Text",
@@ -528,7 +528,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-42-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_42[0]"
+        "FieldHumanName": "ordinary_dividends_cents"
       },
       {
         "FieldType": "Text",
@@ -536,7 +536,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-43-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_43[0]"
+        "FieldHumanName": "qualified_dividends"
       },
       {
         "FieldType": "Text",
@@ -545,7 +545,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-44-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_44[0]"
+        "FieldHumanName": "qualified_dividends_cents"
       },
       {
         "FieldType": "Text",
@@ -553,7 +553,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-45-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_45[0]"
+        "FieldHumanName": "taxable_refunds"
       },
       {
         "FieldType": "Text",
@@ -562,7 +562,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-46-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_46[0]"
+        "FieldHumanName": "taxable_refunds_cents"
       },
       {
         "FieldType": "Text",
@@ -570,7 +570,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-47-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_47[0]"
+        "FieldHumanName": "alimony"
       },
       {
         "FieldType": "Text",
@@ -579,7 +579,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-48-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_48[0]"
+        "FieldHumanName": "alimony_cents"
       },
       {
         "FieldType": "Text",
@@ -587,7 +587,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-49-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_49[0]"
+        "FieldHumanName": "business_income"
       },
       {
         "FieldType": "Text",
@@ -596,7 +596,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-50-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_50[0]"
+        "FieldHumanName": "business_income_cents"
       },
       {
         "FieldType": "Button",
@@ -608,7 +608,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page1-0--c1-11-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].c1_11[0]"
+        "FieldHumanName": "schedule_d_omitted"
       },
       {
         "FieldType": "Text",
@@ -616,7 +616,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1--51-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1-_51[0]"
+        "FieldHumanName": "capital_gains"
       },
       {
         "FieldType": "Text",
@@ -625,7 +625,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-52-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_52[0]"
+        "FieldHumanName": "capital_gains_cents"
       },
       {
         "FieldType": "Text",
@@ -633,7 +633,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-53-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_53[0]"
+        "FieldHumanName": "other_gains"
       },
       {
         "FieldType": "Text",
@@ -642,7 +642,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-54-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_54[0]"
+        "FieldHumanName": "other_gains_cents"
       },
       {
         "FieldType": "Text",
@@ -650,7 +650,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-55-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_55[0]"
+        "FieldHumanName": "ira_distributions"
       },
       {
         "FieldType": "Text",
@@ -659,7 +659,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-56-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_56[0]"
+        "FieldHumanName": "ira_distributions_cents"
       },
       {
         "FieldType": "Text",
@@ -667,7 +667,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-57-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_57[0]"
+        "FieldHumanName": "ira_distributions_taxable"
       },
       {
         "FieldType": "Text",
@@ -676,7 +676,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-58-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_58[0]"
+        "FieldHumanName": "ira_distributions_taxable_cents"
       },
       {
         "FieldType": "Text",
@@ -684,7 +684,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-59-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_59[0]"
+        "FieldHumanName": "pensions"
       },
       {
         "FieldType": "Text",
@@ -693,7 +693,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-60-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_60[0]"
+        "FieldHumanName": "pensions_cents"
       },
       {
         "FieldType": "Text",
@@ -701,7 +701,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-61-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_61[0]"
+        "FieldHumanName": "pensions_taxable"
       },
       {
         "FieldType": "Text",
@@ -710,7 +710,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-62-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_62[0]"
+        "FieldHumanName": "pensions_taxable_cents"
       },
       {
         "FieldType": "Text",
@@ -718,7 +718,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-63-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_63[0]"
+        "FieldHumanName": "rental_real_estate"
       },
       {
         "FieldType": "Text",
@@ -727,7 +727,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-64-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_64[0]"
+        "FieldHumanName": "rental_real_estate_cents"
       },
       {
         "FieldType": "Text",
@@ -735,7 +735,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-65-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_65[0]"
+        "FieldHumanName": "farm_income"
       },
       {
         "FieldType": "Text",
@@ -744,7 +744,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-66-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_66[0]"
+        "FieldHumanName": "farm_income_cents"
       },
       {
         "FieldType": "Text",
@@ -752,7 +752,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-67-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_67[0]"
+        "FieldHumanName": "unemployment_compensation"
       },
       {
         "FieldType": "Text",
@@ -761,7 +761,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-68-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_68[0]"
+        "FieldHumanName": "unemployment_compensation_cents"
       },
       {
         "FieldType": "Text",
@@ -769,7 +769,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-69-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_69[0]"
+        "FieldHumanName": "social_security"
       },
       {
         "FieldType": "Text",
@@ -778,7 +778,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-70-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_70[0]"
+        "FieldHumanName": "social_security_cents"
       },
       {
         "FieldType": "Text",
@@ -786,7 +786,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-71-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_71[0]"
+        "FieldHumanName": "social_security_taxable"
       },
       {
         "FieldType": "Text",
@@ -795,7 +795,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-72-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_72[0]"
+        "FieldHumanName": "social_security_taxable_amount"
       },
       {
         "FieldType": "Text",
@@ -803,7 +803,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page1-0--f1-73-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_73[0]"
+        "FieldHumanName": "other_income_type"
       },
       {
         "FieldType": "Text",
@@ -811,7 +811,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-74-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_74[0]"
+        "FieldHumanName": "other_income_total"
       },
       {
         "FieldType": "Text",
@@ -820,7 +820,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-75-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_75[0]"
+        "FieldHumanName": "other_income_total_cents"
       },
       {
         "FieldType": "Text",
@@ -828,7 +828,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-76-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_76[0]"
+        "FieldHumanName": "total_income"
       },
       {
         "FieldType": "Text",
@@ -837,7 +837,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-77-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_77[0]"
+        "FieldHumanName": "total_income_cents"
       },
       {
         "FieldType": "Text",
@@ -845,7 +845,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-78-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_78[0]"
+        "FieldHumanName": "educator_expenses"
       },
       {
         "FieldType": "Text",
@@ -854,7 +854,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-79-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_79[0]"
+        "FieldHumanName": "educator_expenses_cents"
       },
       {
         "FieldType": "Text",
@@ -862,7 +862,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-80-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_80[0]"
+        "FieldHumanName": "certain_business_expenses"
       },
       {
         "FieldType": "Text",
@@ -871,7 +871,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-81-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_81[0]"
+        "FieldHumanName": "certain_business_expenses_cents"
       },
       {
         "FieldType": "Text",
@@ -879,7 +879,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-82-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_82[0]"
+        "FieldHumanName": "hsa_deduction"
       },
       {
         "FieldType": "Text",
@@ -888,7 +888,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-83-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_83[0]"
+        "FieldHumanName": "hsa_deduction_cents"
       },
       {
         "FieldType": "Text",
@@ -896,7 +896,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-84-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_84[0]"
+        "FieldHumanName": "moving_expenses"
       },
       {
         "FieldType": "Text",
@@ -905,7 +905,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-85-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_85[0]"
+        "FieldHumanName": "moving_expenses_cents"
       },
       {
         "FieldType": "Text",
@@ -913,7 +913,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-86-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_86[0]"
+        "FieldHumanName": "deductible_self_employment_tax"
       },
       {
         "FieldType": "Text",
@@ -922,7 +922,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-87-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_87[0]"
+        "FieldHumanName": "deductible_self_employment_tax_cents"
       },
       {
         "FieldType": "Text",
@@ -930,7 +930,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-88-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_88[0]"
+        "FieldHumanName": "self_employed_sep"
       },
       {
         "FieldType": "Text",
@@ -939,7 +939,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-89-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_89[0]"
+        "FieldHumanName": "self_employed_sep_cents"
       },
       {
         "FieldType": "Text",
@@ -947,7 +947,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-90-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_90[0]"
+        "FieldHumanName": "self_employed_health_insurance"
       },
       {
         "FieldType": "Text",
@@ -956,7 +956,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-91-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_91[0]"
+        "FieldHumanName": "self_employed_health_insurance_cents"
       },
       {
         "FieldType": "Text",
@@ -964,7 +964,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-92-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_92[0]"
+        "FieldHumanName": "penalty_on_early_withdrawal"
       },
       {
         "FieldType": "Text",
@@ -973,7 +973,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-93-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_93[0]"
+        "FieldHumanName": "penalty_on_early_withdrawal_cents"
       },
       {
         "FieldType": "Text",
@@ -982,7 +982,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "9",
         "FieldId": "topmostSubform-0--Page1-0--f1-94-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_94[0]"
+        "FieldHumanName": "alimony_recipient_ssn"
       },
       {
         "FieldType": "Text",
@@ -990,7 +990,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-95-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_95[0]"
+        "FieldHumanName": "alimony_paid"
       },
       {
         "FieldType": "Text",
@@ -999,7 +999,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-96-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_96[0]"
+        "FieldHumanName": "alimony_paid_cents"
       },
       {
         "FieldType": "Text",
@@ -1007,7 +1007,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-97-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_97[0]"
+        "FieldHumanName": "ira_deduction"
       },
       {
         "FieldType": "Text",
@@ -1016,7 +1016,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-98-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_98[0]"
+        "FieldHumanName": "ira_deduction_cents"
       },
       {
         "FieldType": "Text",
@@ -1024,7 +1024,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-99-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_99[0]"
+        "FieldHumanName": "student_loan_interest_deduction"
       },
       {
         "FieldType": "Text",
@@ -1033,7 +1033,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-100-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_100[0]"
+        "FieldHumanName": "student_loan_interest_deduction_cents"
       },
       {
         "FieldType": "Text",
@@ -1041,7 +1041,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-101-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_101[0]"
+        "FieldHumanName": "tuition_and_fees"
       },
       {
         "FieldType": "Text",
@@ -1050,7 +1050,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-102-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_102[0]"
+        "FieldHumanName": "tuition_and_fees_cents"
       },
       {
         "FieldType": "Text",
@@ -1058,7 +1058,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-103-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_103[0]"
+        "FieldHumanName": "domestic_production_activities"
       },
       {
         "FieldType": "Text",
@@ -1067,7 +1067,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-104-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_104[0]"
+        "FieldHumanName": "domestic_production_activities_cents"
       },
       {
         "FieldType": "Text",
@@ -1075,7 +1075,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-105-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_105[0]"
+        "FieldHumanName": "total_deductions"
       },
       {
         "FieldType": "Text",
@@ -1084,7 +1084,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-106-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_106[0]"
+        "FieldHumanName": "total_deductions_cents"
       },
       {
         "FieldType": "Text",
@@ -1092,7 +1092,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page1-0--f1-107-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_107[0]"
+        "FieldHumanName": "adjusted_gross_income"
       },
       {
         "FieldType": "Text",
@@ -1101,7 +1101,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page1-0--f1-108-0-",
-        "FieldHumanName": "topmostSubform[0].Page1[0].f1_108[0]"
+        "FieldHumanName": "adjusted_gross_income_cents"
       },
       {
         "FieldType": "Text",
@@ -1109,7 +1109,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-01-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_01[0]"
+        "FieldHumanName": "adjusted_gross_income"
       },
       {
         "FieldType": "Text",
@@ -1118,7 +1118,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-02-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_02[0]"
+        "FieldHumanName": "adjusted_gross_income_cents"
       },
       {
         "FieldType": "Button",
@@ -1130,7 +1130,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-01-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_01[0]"
+        "FieldHumanName": "born_before_1_2_1952"
       },
       {
         "FieldType": "Button",
@@ -1142,7 +1142,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-02-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_02[0]"
+        "FieldHumanName": "spouse_born_before_1_2_1952"
       },
       {
         "FieldType": "Button",
@@ -1154,7 +1154,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-03-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_03[0]"
+        "FieldHumanName": "blind"
       },
       {
         "FieldType": "Button",
@@ -1166,7 +1166,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-04-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_04[0]"
+        "FieldHumanName": "spouse_blind"
       },
       {
         "FieldType": "Text",
@@ -1174,7 +1174,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page2-0--f2-03-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2-03[0]"
+        "FieldHumanName": "total_line_39_boxes"
       },
       {
         "FieldType": "Button",
@@ -1186,7 +1186,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-05-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_05[0]"
+        "FieldHumanName": "spouse_itemizes_on_separate_return"
       },
       {
         "FieldType": "Text",
@@ -1194,7 +1194,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-04-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_04[0]"
+        "FieldHumanName": "itemized_deductions"
       },
       {
         "FieldType": "Text",
@@ -1203,7 +1203,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-05-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_05[0]"
+        "FieldHumanName": "itemized_deductions_cents"
       },
       {
         "FieldType": "Text",
@@ -1211,7 +1211,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-06-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_06[0]"
+        "FieldHumanName": "calculate_38_minus_40"
       },
       {
         "FieldType": "Text",
@@ -1220,7 +1220,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-07-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_07[0]"
+        "FieldHumanName": "calculate_38_minus_40_cents"
       },
       {
         "FieldType": "Text",
@@ -1228,7 +1228,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-08-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_08[0]"
+        "FieldHumanName": "exemptions"
       },
       {
         "FieldType": "Text",
@@ -1237,7 +1237,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-09-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_09[0]"
+        "FieldHumanName": "exemptions_cents"
       },
       {
         "FieldType": "Text",
@@ -1245,7 +1245,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-10-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_10[0]"
+        "FieldHumanName": "taxable_income"
       },
       {
         "FieldType": "Text",
@@ -1254,7 +1254,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-11-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_11[0]"
+        "FieldHumanName": "taxable_income_cents"
       },
       {
         "FieldType": "Button",
@@ -1266,7 +1266,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-06-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_06[0]"
+        "FieldHumanName": "tax_from_8814"
       },
       {
         "FieldType": "Button",
@@ -1278,7 +1278,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-07-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_07[0]"
+        "FieldHumanName": "tax_from_4972"
       },
       {
         "FieldType": "Button",
@@ -1290,7 +1290,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-08-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_08[0]"
+        "FieldHumanName": "tax_from_other"
       },
       {
         "FieldType": "Text",
@@ -1298,7 +1298,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-12-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_12[0]"
+        "FieldHumanName": "tax_from_other_form"
       },
       {
         "FieldType": "Text",
@@ -1306,7 +1306,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-13-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_13[0]"
+        "FieldHumanName": "tax"
       },
       {
         "FieldType": "Text",
@@ -1315,7 +1315,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-14-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_14[0]"
+        "FieldHumanName": "tax_cents"
       },
       {
         "FieldType": "Text",
@@ -1323,7 +1323,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-15-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_15[0]"
+        "FieldHumanName": "amt"
       },
       {
         "FieldType": "Text",
@@ -1332,7 +1332,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-16-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_16[0]"
+        "FieldHumanName": "amt_cents"
       },
       {
         "FieldType": "Text",
@@ -1340,7 +1340,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-17-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_17[0]"
+        "FieldHumanName": "excess_tax_credit_repayment"
       },
       {
         "FieldType": "Text",
@@ -1349,7 +1349,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-18-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_18[0]"
+        "FieldHumanName": "excess_tax_credit_repayment_cents"
       },
       {
         "FieldType": "Text",
@@ -1357,7 +1357,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-19-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_19[0]"
+        "FieldHumanName": "calculate_44_plus_45_plus_46"
       },
       {
         "FieldType": "Text",
@@ -1366,7 +1366,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-20-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_20[0]"
+        "FieldHumanName": "calculate_44_plus_45_plus_46_cents"
       },
       {
         "FieldType": "Text",
@@ -1374,7 +1374,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-21-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_21[0]"
+        "FieldHumanName": "foreign_tax_credit"
       },
       {
         "FieldType": "Text",
@@ -1383,7 +1383,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-22-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_22[0]"
+        "FieldHumanName": "foreign_tax_credit_cents"
       },
       {
         "FieldType": "Text",
@@ -1391,7 +1391,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-23-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_23[0]"
+        "FieldHumanName": "child_care_credit"
       },
       {
         "FieldType": "Text",
@@ -1400,7 +1400,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-24-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_24[0]"
+        "FieldHumanName": "child_care_credit_cents"
       },
       {
         "FieldType": "Text",
@@ -1408,7 +1408,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-25-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_25[0]"
+        "FieldHumanName": "education_credits"
       },
       {
         "FieldType": "Text",
@@ -1417,7 +1417,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-26-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_26[0]"
+        "FieldHumanName": "education_credits_cents"
       },
       {
         "FieldType": "Text",
@@ -1425,7 +1425,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-27-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_27[0]"
+        "FieldHumanName": "retirement_savings_credit"
       },
       {
         "FieldType": "Text",
@@ -1434,7 +1434,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-28-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_28[0]"
+        "FieldHumanName": "retirement_savings_credit_cents"
       },
       {
         "FieldType": "Text",
@@ -1442,7 +1442,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-29-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_29[0]"
+        "FieldHumanName": "child_tax_credit"
       },
       {
         "FieldType": "Text",
@@ -1451,7 +1451,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--F2-30-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].F2_30[0]"
+        "FieldHumanName": "child_tax_credit_cents"
       },
       {
         "FieldType": "Text",
@@ -1459,7 +1459,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-31-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_31[0]"
+        "FieldHumanName": "residential_energy_credits"
       },
       {
         "FieldType": "Text",
@@ -1468,7 +1468,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-32-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_32[0]"
+        "FieldHumanName": "residential_energy_credits_cents"
       },
       {
         "FieldType": "Button",
@@ -1480,7 +1480,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-09-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_09[0]"
+        "FieldHumanName": "other_credits_from_3800"
       },
       {
         "FieldType": "Button",
@@ -1492,7 +1492,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-10-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_10[0]"
+        "FieldHumanName": "other_credits_from_8801"
       },
       {
         "FieldType": "Button",
@@ -1504,7 +1504,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-11-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_11[0]"
+        "FieldHumanName": "other_credits_from_other"
       },
       {
         "FieldType": "Text",
@@ -1512,7 +1512,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-33-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_33[0]"
+        "FieldHumanName": "other_credits_from_other_form"
       },
       {
         "FieldType": "Text",
@@ -1520,7 +1520,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-34-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_34[0]"
+        "FieldHumanName": "other_credits"
       },
       {
         "FieldType": "Text",
@@ -1529,7 +1529,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-35-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_35[0]"
+        "FieldHumanName": "other_credits_cents"
       },
       {
         "FieldType": "Text",
@@ -1537,7 +1537,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-36-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_36[0]"
+        "FieldHumanName": "total_credits"
       },
       {
         "FieldType": "Text",
@@ -1546,7 +1546,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-37-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_37[0]"
+        "FieldHumanName": "total_credits_cents"
       },
       {
         "FieldType": "Text",
@@ -1554,7 +1554,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-38-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_38[0]"
+        "FieldHumanName": "calculate_47_minus_55"
       },
       {
         "FieldType": "Text",
@@ -1563,7 +1563,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-39-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_39[0]"
+        "FieldHumanName": "calculate_47_minus_55_cents"
       },
       {
         "FieldType": "Text",
@@ -1571,7 +1571,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-40-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_40[0]"
+        "FieldHumanName": "self_employment_tax"
       },
       {
         "FieldType": "Text",
@@ -1580,7 +1580,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-41-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_41[0]"
+        "FieldHumanName": "self_employment_tax_cents"
       },
       {
         "FieldType": "Button",
@@ -1592,7 +1592,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-12-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_12[0]"
+        "FieldHumanName": "unreported_social_security_tax_4137"
       },
       {
         "FieldType": "Button",
@@ -1604,7 +1604,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-13-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_13[0]"
+        "FieldHumanName": "unreported_social_security_tax_8919"
       },
       {
         "FieldType": "Text",
@@ -1612,7 +1612,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-42-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_42[0]"
+        "FieldHumanName": "unreported_social_security"
       },
       {
         "FieldType": "Text",
@@ -1621,7 +1621,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-43-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_43[0]"
+        "FieldHumanName": "unreported_social_security_cents"
       },
       {
         "FieldType": "Text",
@@ -1629,7 +1629,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-44-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_44[0]"
+        "FieldHumanName": "additional_ira_tax"
       },
       {
         "FieldType": "Text",
@@ -1638,7 +1638,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-45-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_45[0]"
+        "FieldHumanName": "additional_ira_tax_cents"
       },
       {
         "FieldType": "Text",
@@ -1646,7 +1646,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-46-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_46[0]"
+        "FieldHumanName": "household_employment_tax"
       },
       {
         "FieldType": "Text",
@@ -1655,7 +1655,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-47-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_47[0]"
+        "FieldHumanName": "household_employment_tax_cents"
       },
       {
         "FieldType": "Text",
@@ -1663,7 +1663,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-48-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_48[0]"
+        "FieldHumanName": "first_time_homebuyer"
       },
       {
         "FieldType": "Text",
@@ -1672,7 +1672,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-49-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_49[0]"
+        "FieldHumanName": "first_time_homebuyer_credit"
       },
       {
         "FieldType": "Button",
@@ -1684,7 +1684,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-14-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_14[0]"
+        "FieldHumanName": "health_care_full_year"
       },
       {
         "FieldType": "Text",
@@ -1692,7 +1692,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-50-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_50[0]"
+        "FieldHumanName": "health_care_responsibility"
       },
       {
         "FieldType": "Text",
@@ -1701,7 +1701,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-51-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_51[0]"
+        "FieldHumanName": "health_care_responsibility_cents"
       },
       {
         "FieldType": "Button",
@@ -1713,7 +1713,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-15-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_15[0]"
+        "FieldHumanName": "taxes_from_8959"
       },
       {
         "FieldType": "Button",
@@ -1725,7 +1725,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-16-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_16[0]"
+        "FieldHumanName": "taxes_from_8960"
       },
       {
         "FieldType": "Button",
@@ -1737,7 +1737,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-17-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_17[0]"
+        "FieldHumanName": "taxes_from_instructions"
       },
       {
         "FieldType": "Text",
@@ -1745,7 +1745,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-52-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_52[0]"
+        "FieldHumanName": "taxes_from_instructions_code"
       },
       {
         "FieldType": "Text",
@@ -1753,7 +1753,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-53-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_53[0]"
+        "FieldHumanName": "line_62_taxes"
       },
       {
         "FieldType": "Text",
@@ -1762,7 +1762,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-54-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_54[0]"
+        "FieldHumanName": "line_62_taxes_cents"
       },
       {
         "FieldType": "Text",
@@ -1770,7 +1770,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-55-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_55[0]"
+        "FieldHumanName": "total_tax"
       },
       {
         "FieldType": "Text",
@@ -1779,7 +1779,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-56-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_56[0]"
+        "FieldHumanName": "total_tax_cents"
       },
       {
         "FieldType": "Text",
@@ -1787,7 +1787,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-57-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_57[0]"
+        "FieldHumanName": "federal_income_tax_withheld"
       },
       {
         "FieldType": "Text",
@@ -1796,7 +1796,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-58-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_58[0]"
+        "FieldHumanName": "federal_income_tax_withheld_cents"
       },
       {
         "FieldType": "Text",
@@ -1804,7 +1804,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-59-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_59[0]"
+        "FieldHumanName": "estimated_tax_payments_from_last_year"
       },
       {
         "FieldType": "Text",
@@ -1813,7 +1813,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-60-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_60[0]"
+        "FieldHumanName": "estimated_tax_payments_from_last_year_cents"
       },
       {
         "FieldType": "Text",
@@ -1821,7 +1821,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-61-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_61[0]"
+        "FieldHumanName": "earned_income_credit"
       },
       {
         "FieldType": "Text",
@@ -1830,7 +1830,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-62-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_62[0]"
+        "FieldHumanName": "earned_income_credit_cents"
       },
       {
         "FieldType": "Text",
@@ -1838,7 +1838,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-63-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_63[0]"
+        "FieldHumanName": "nontaxable_combat_pay"
       },
       {
         "FieldType": "Text",
@@ -1847,7 +1847,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-64-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_64[0]"
+        "FieldHumanName": "nontaxable_combat_pay_cents"
       },
       {
         "FieldType": "Text",
@@ -1855,7 +1855,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-65-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_65[0]"
+        "FieldHumanName": "additional_child_tax_credit"
       },
       {
         "FieldType": "Text",
@@ -1864,7 +1864,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-66-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_66[0]"
+        "FieldHumanName": "additional_child_tax_credit_cents"
       },
       {
         "FieldType": "Text",
@@ -1872,7 +1872,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-67-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_67[0]"
+        "FieldHumanName": "american_opportunity_credit"
       },
       {
         "FieldType": "Text",
@@ -1881,7 +1881,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-68-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_68[0]"
+        "FieldHumanName": "american_opportunity_credit_cents"
       },
       {
         "FieldType": "Text",
@@ -1889,7 +1889,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-69-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_69[0]"
+        "FieldHumanName": "net_premium_credit"
       },
       {
         "FieldType": "Text",
@@ -1898,7 +1898,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-70-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_70[0]"
+        "FieldHumanName": "net_premium_credit_cents"
       },
       {
         "FieldType": "Text",
@@ -1906,7 +1906,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-71-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_71[0]"
+        "FieldHumanName": "amount_paid_with_extension"
       },
       {
         "FieldType": "Text",
@@ -1915,7 +1915,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-72-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_72[0]"
+        "FieldHumanName": "amount_paid_with_extension_cents"
       },
       {
         "FieldType": "Text",
@@ -1923,7 +1923,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-73-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_73[0]"
+        "FieldHumanName": "excess_social_security_payments"
       },
       {
         "FieldType": "Text",
@@ -1932,7 +1932,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-74-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_74[0]"
+        "FieldHumanName": "excess_social_security_payments_cents"
       },
       {
         "FieldType": "Text",
@@ -1940,7 +1940,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-75-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_75[0]"
+        "FieldHumanName": "federal_fuel_credit"
       },
       {
         "FieldType": "Text",
@@ -1949,7 +1949,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-76-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_76[0]"
+        "FieldHumanName": "federal_fuel_credit_cents"
       },
       {
         "FieldType": "Button",
@@ -1961,7 +1961,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-18-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_18[0]"
+        "FieldHumanName": "credits_from_2439"
       },
       {
         "FieldType": "Button",
@@ -1973,7 +1973,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-19-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_19[0]"
+        "FieldHumanName": "credits_from_reserved"
       },
       {
         "FieldType": "Button",
@@ -1985,7 +1985,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-20-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_20[0]"
+        "FieldHumanName": "credits_from_8885"
       },
       {
         "FieldType": "Button",
@@ -1997,7 +1997,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-21-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_21[0]"
+        "FieldHumanName": "credits_from_other"
       },
       {
         "FieldType": "Text",
@@ -2005,7 +2005,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-77-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_77[0]"
+        "FieldHumanName": "credits_from_other_form"
       },
       {
         "FieldType": "Text",
@@ -2013,7 +2013,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-78-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_78[0]"
+        "FieldHumanName": "credits_other"
       },
       {
         "FieldType": "Text",
@@ -2022,7 +2022,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-79-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_79[0]"
+        "FieldHumanName": "credits_other_cents"
       },
       {
         "FieldType": "Text",
@@ -2030,7 +2030,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-80-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_80[0]"
+        "FieldHumanName": "total_payments"
       },
       {
         "FieldType": "Text",
@@ -2039,7 +2039,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-81-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_81[0]"
+        "FieldHumanName": "total_payments_cents"
       },
       {
         "FieldType": "Text",
@@ -2047,7 +2047,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-82-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_82[0]"
+        "FieldHumanName": "overpaid_amount"
       },
       {
         "FieldType": "Text",
@@ -2056,7 +2056,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-83-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_83[0]"
+        "FieldHumanName": "overpaid_amount_cents"
       },
       {
         "FieldType": "Button",
@@ -2068,7 +2068,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-22-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_22[0]"
+        "FieldHumanName": "form_8888_attached"
       },
       {
         "FieldType": "Text",
@@ -2076,7 +2076,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-84-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_84[0]"
+        "FieldHumanName": "amount_to_refund"
       },
       {
         "FieldType": "Text",
@@ -2085,7 +2085,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-85-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_85[0]"
+        "FieldHumanName": "amount_to_refund_cents"
       },
       {
         "FieldType": "Text",
@@ -2094,7 +2094,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "9",
         "FieldId": "topmostSubform-0--Page2-0--RoutingNoRules-0--f1-86-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].RoutingNoRules[0].f1_86[0]"
+        "FieldHumanName": "refund_routing_number"
       },
       {
         "FieldType": "Button",
@@ -2106,7 +2106,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-23-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_23[0]"
+        "FieldHumanName": "refund_account_checking"
       },
       {
         "FieldType": "Button",
@@ -2118,7 +2118,7 @@
           "Savings"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-23-1-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_23[1]"
+        "FieldHumanName": "refund_account_savings"
       },
       {
         "FieldType": "Text",
@@ -2127,7 +2127,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "17",
         "FieldId": "topmostSubform-0--Page2-0--Accountnumber-0--f1-87-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].Accountnumber[0].f1_87[0]"
+        "FieldHumanName": "refund_account_number"
       },
       {
         "FieldType": "Text",
@@ -2135,7 +2135,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-88-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_88[0]"
+        "FieldHumanName": "amount_to_apply_to_next_year"
       },
       {
         "FieldType": "Text",
@@ -2144,7 +2144,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-89-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_89[0]"
+        "FieldHumanName": "amount_to_apply_to_next_year_cents"
       },
       {
         "FieldType": "Text",
@@ -2152,7 +2152,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-90-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_90[0]"
+        "FieldHumanName": "amount_owed"
       },
       {
         "FieldType": "Text",
@@ -2161,7 +2161,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-91-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_91[0]"
+        "FieldHumanName": "amount_owed_cents"
       },
       {
         "FieldType": "Text",
@@ -2169,7 +2169,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Right",
         "FieldId": "topmostSubform-0--Page2-0--f2-92-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_92[0]"
+        "FieldHumanName": "estimated_tax_penalty"
       },
       {
         "FieldType": "Text",
@@ -2178,7 +2178,7 @@
         "FieldJustification": "Right",
         "FieldMaxLength": "3",
         "FieldId": "topmostSubform-0--Page2-0--f2-93-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_93[0]"
+        "FieldHumanName": "estimated_tax_penalty_cents"
       },
       {
         "FieldType": "Button",
@@ -2190,7 +2190,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-24-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_24[0]"
+        "FieldHumanName": "other_person_discuss"
       },
       {
         "FieldType": "Button",
@@ -2202,7 +2202,7 @@
           "Off"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-24-1-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_24[1]"
+        "FieldHumanName": "other_person_discuss_no"
       },
       {
         "FieldType": "Text",
@@ -2210,7 +2210,7 @@
         "FieldFlags": "8392704",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-94-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_94[0]"
+        "FieldHumanName": "other_person_name"
       },
       {
         "FieldType": "Text",
@@ -2218,7 +2218,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page2-0--f2-95-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_95[0]"
+        "FieldHumanName": "other_person_phone"
       },
       {
         "FieldType": "Text",
@@ -2227,7 +2227,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "5",
         "FieldId": "topmostSubform-0--Page2-0--f2-96-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_96[0]"
+        "FieldHumanName": "other_person_pin"
       },
       {
         "FieldType": "Text",
@@ -2235,7 +2235,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-97-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_97[0]"
+        "FieldHumanName": "occupation"
       },
       {
         "FieldType": "Text",
@@ -2243,7 +2243,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page2-0--f2-98-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_98[0]"
+        "FieldHumanName": "phone_number"
       },
       {
         "FieldType": "Text",
@@ -2251,7 +2251,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-99-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_99[0]"
+        "FieldHumanName": "spouse_occupation"
       },
       {
         "FieldType": "Text",
@@ -2260,7 +2260,7 @@
         "FieldJustification": "Left",
         "FieldMaxLength": "6",
         "FieldId": "topmostSubform-0--Page2-0--f2-100-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_100[0]"
+        "FieldHumanName": "identity_protection_pin"
       },
       {
         "FieldType": "Text",
@@ -2268,7 +2268,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-101-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_101[0]"
+        "FieldHumanName": "preparer_name"
       },
       {
         "FieldType": "Button",
@@ -2280,7 +2280,7 @@
           "Yes"
         ],
         "FieldId": "topmostSubform-0--Page2-0--c2-25-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].c2_25[0]"
+        "FieldHumanName": "preparer_self_employed"
       },
       {
         "FieldType": "Text",
@@ -2289,7 +2289,7 @@
         "FieldJustification": "Center",
         "FieldMaxLength": "11",
         "FieldId": "topmostSubform-0--Page2-0--f2-102-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_102[0]"
+        "FieldHumanName": "preparer_ptin"
       },
       {
         "FieldType": "Text",
@@ -2297,7 +2297,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-103-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_103[0]"
+        "FieldHumanName": "preparer_firm_name"
       },
       {
         "FieldType": "Text",
@@ -2305,7 +2305,7 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Left",
         "FieldId": "topmostSubform-0--Page2-0--f2-104-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_104[0]"
+        "FieldHumanName": "preparer_firm_address"
       },
       {
         "FieldType": "Text",
@@ -2314,7 +2314,7 @@
         "FieldJustification": "Center",
         "FieldMaxLength": "10",
         "FieldId": "topmostSubform-0--Page2-0--f2-105-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_105[0]"
+        "FieldHumanName": "preparer_firm_ein"
       },
       {
         "FieldType": "Text",
@@ -2322,17 +2322,17 @@
         "FieldFlags": "8388608",
         "FieldJustification": "Center",
         "FieldId": "topmostSubform-0--Page2-0--f2-106-0-",
-        "FieldHumanName": "topmostSubform[0].Page2[0].f2_106[0]"
+        "FieldHumanName": "preparer_phone_number"
       },
       {
-        "FieldType": "FieldName:",
-        "topmostSubform[0]": "FieldFlags:",
-        "0": "FieldJustification:",
-        "Left": null,
-        "FieldId": ""
+        "FieldType": "",
+        "FieldName": "topmostSubform[0]",
+        "FieldFlags": "0",
+        "FieldJustification": "Left",
+        "FieldId": "topmostSubform-0-"
       }
     ],
-    "path": "/Users/tomdooner/dev/playgrounds/taxes/web-form-generator/tmp/src/65450ef23695e831f540a492f15560f0"
+    "path": "/Users/Tom/dev/playgrounds/pdf-tax-form-filler/web-form-generator/tmp/src/65450ef23695e831f540a492f15560f0"
   },
   "4c1d74fc88342c4409aec87fc781e530": {
     "fields": [
